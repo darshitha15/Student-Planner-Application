@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Duedate" representedClassName="Duedate" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="dueDays" optional="YES" attributeType="String"/>
+        <attribute name="isSelect" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TimeTable" representedClassName="TimeTable" syncable="YES" codeGenerationType="class">
+        <attribute name="classType" optional="YES" attributeType="String"/>
+        <attribute name="course" optional="YES" attributeType="String"/>
+        <attribute name="instructor" optional="YES" attributeType="String" customClassName="[String]"/>
+        <attribute name="roomNum" optional="YES" attributeType="String"/>
+        <attribute name="schedules" optional="YES" attributeType="String"/>
+        <attribute name="timings" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Duedate" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="TimeTable" positionX="-63" positionY="18" width="128" height="133"/>
+    </elements>
+</model>
